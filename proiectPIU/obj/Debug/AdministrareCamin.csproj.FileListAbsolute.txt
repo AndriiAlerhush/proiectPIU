@@ -1,0 +1,12 @@
+E:\Git\Proiecte\proiectPIU\proiectPIU\bin\Debug\proiectPIU.exe.config
+E:\Git\Proiecte\proiectPIU\proiectPIU\bin\Debug\proiectPIU.exe
+E:\Git\Proiecte\proiectPIU\proiectPIU\bin\Debug\proiectPIU.pdb
+E:\Git\Proiecte\proiectPIU\proiectPIU\bin\Debug\ListaModele.dll
+E:\Git\Proiecte\proiectPIU\proiectPIU\bin\Debug\NivelStocareDate.dll
+E:\Git\Proiecte\proiectPIU\proiectPIU\bin\Debug\ListaModele.pdb
+E:\Git\Proiecte\proiectPIU\proiectPIU\bin\Debug\NivelStocareDate.pdb
+E:\Git\Proiecte\proiectPIU\proiectPIU\obj\Debug\AdministrareCamin.csproj.AssemblyReference.cache
+E:\Git\Proiecte\proiectPIU\proiectPIU\obj\Debug\AdministrareCamin.csproj.CoreCompileInputs.cache
+E:\Git\Proiecte\proiectPIU\proiectPIU\obj\Debug\Administ.B8C2F42F.Up2Date
+E:\Git\Proiecte\proiectPIU\proiectPIU\obj\Debug\proiectPIU.exe
+E:\Git\Proiecte\proiectPIU\proiectPIU\obj\Debug\proiectPIU.pdb

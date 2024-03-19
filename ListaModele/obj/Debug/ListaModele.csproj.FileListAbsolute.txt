@@ -1,0 +1,6 @@
+E:\Git\Proiecte\proiectPIU\ListaModele\bin\Debug\ListaModele.dll
+E:\Git\Proiecte\proiectPIU\ListaModele\bin\Debug\ListaModele.pdb
+E:\Git\Proiecte\proiectPIU\ListaModele\obj\Debug\ListaModele.csproj.AssemblyReference.cache
+E:\Git\Proiecte\proiectPIU\ListaModele\obj\Debug\ListaModele.csproj.CoreCompileInputs.cache
+E:\Git\Proiecte\proiectPIU\ListaModele\obj\Debug\ListaModele.dll
+E:\Git\Proiecte\proiectPIU\ListaModele\obj\Debug\ListaModele.pdb
