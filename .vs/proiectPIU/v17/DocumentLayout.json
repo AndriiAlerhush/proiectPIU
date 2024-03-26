@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "E:\\Git\\Proiecte\\proiectPIU\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91150AAF-7FEE-4B49-92C4-4FE12C51AD8E}|proiectPIU\\Camin.csproj|e:\\git\\proiecte\\proiectpiu\\proiectpiu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91150AAF-7FEE-4B49-92C4-4FE12C51AD8E}|proiectPIU\\Camin.csproj|E:\\Git\\Proiecte\\proiectPIU\\proiectpiu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91150AAF-7FEE-4B49-92C4-4FE12C51AD8E}|proiectPIU\\Camin.csproj|solutionrelative:proiectpiu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1237038C-612F-401B-89AB-5F00B00A48F1}|NivelStocareDate\\NivelStocareDate.csproj|e:\\git\\proiecte\\proiectpiu\\nivelstocaredate\\administrarecamin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1237038C-612F-401B-89AB-5F00B00A48F1}|NivelStocareDate\\NivelStocareDate.csproj|solutionrelative:nivelstocaredate\\administrarecamin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02638771-41B5-4D16-8A8E-B5165A767468}|ListaModele\\ListaModele.csproj|E:\\Git\\Proiecte\\proiectPIU\\listamodele\\persoana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02638771-41B5-4D16-8A8E-B5165A767468}|ListaModele\\ListaModele.csproj|solutionrelative:listamodele\\persoana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02638771-41B5-4D16-8A8E-B5165A767468}|ListaModele\\ListaModele.csproj|E:\\Git\\Proiecte\\proiectPIU\\listamodele\\listamodele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02638771-41B5-4D16-8A8E-B5165A767468}|ListaModele\\ListaModele.csproj|solutionrelative:listamodele\\listamodele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1237038C-612F-401B-89AB-5F00B00A48F1}|NivelStocareDate\\NivelStocareDate.csproj|e:\\git\\proiecte\\proiectpiu\\nivelstocaredate\\administrarelocuitori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1237038C-612F-401B-89AB-5F00B00A48F1}|NivelStocareDate\\NivelStocareDate.csproj|solutionrelative:nivelstocaredate\\administrarelocuitori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02638771-41B5-4D16-8A8E-B5165A767468}|ListaModele\\ListaModele.csproj|E:\\Git\\Proiecte\\proiectPIU\\listamodele\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02638771-41B5-4D16-8A8E-B5165A767468}|ListaModele\\ListaModele.csproj|solutionrelative:listamodele\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1237038C-612F-401B-89AB-5F00B00A48F1}|NivelStocareDate\\NivelStocareDate.csproj|E:\\Git\\Proiecte\\proiectPIU\\nivelstocaredate\\administrarepersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1237038C-612F-401B-89AB-5F00B00A48F1}|NivelStocareDate\\NivelStocareDate.csproj|solutionrelative:nivelstocaredate\\administrarepersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02638771-41B5-4D16-8A8E-B5165A767468}|ListaModele\\ListaModele.csproj|E:\\Git\\Proiecte\\proiectPIU\\listamodele\\locuitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02638771-41B5-4D16-8A8E-B5165A767468}|ListaModele\\ListaModele.csproj|solutionrelative:listamodele\\locuitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +44,7 @@
               "RelativeDocumentMoniker": "proiectPIU\\Program.cs",
               "ToolTip": "E:\\Git\\Proiecte\\proiectPIU\\proiectPIU\\Program.cs",
               "RelativeToolTip": "proiectPIU\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "ViewState": "AQIAACcAAAAAPTMzM7MZwDgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T21:29:40.577Z",
               "IsPinned": true,
@@ -41,28 +53,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ListaModele.cs",
-              "DocumentMoniker": "E:\\Git\\Proiecte\\proiectPIU\\ListaModele\\ListaModele.cs",
-              "RelativeDocumentMoniker": "ListaModele\\ListaModele.cs",
-              "ToolTip": "E:\\Git\\Proiecte\\proiectPIU\\ListaModele\\ListaModele.cs",
-              "RelativeToolTip": "ListaModele\\ListaModele.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Title": "AdministrareLocuitori.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\proiectPIU\\NivelStocareDate\\AdministrareLocuitori.cs",
+              "RelativeDocumentMoniker": "NivelStocareDate\\AdministrareLocuitori.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\proiectPIU\\NivelStocareDate\\AdministrareLocuitori.cs",
+              "RelativeToolTip": "NivelStocareDate\\AdministrareLocuitori.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T21:29:41.654Z",
+              "WhenOpened": "2024-03-26T18:53:11.924Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdministrareCamin.cs",
-              "DocumentMoniker": "E:\\Git\\Proiecte\\proiectPIU\\NivelStocareDate\\AdministrareCamin.cs",
-              "RelativeDocumentMoniker": "NivelStocareDate\\AdministrareCamin.cs",
-              "ToolTip": "E:\\Git\\Proiecte\\proiectPIU\\NivelStocareDate\\AdministrareCamin.cs",
-              "RelativeToolTip": "NivelStocareDate\\AdministrareCamin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "DocumentIndex": 4,
+              "Title": "AdministrarePersonal.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\proiectPIU\\NivelStocareDate\\AdministrarePersonal.cs",
+              "RelativeDocumentMoniker": "NivelStocareDate\\AdministrarePersonal.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\proiectPIU\\NivelStocareDate\\AdministrarePersonal.cs",
+              "RelativeToolTip": "NivelStocareDate\\AdministrarePersonal.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAawD8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T21:29:45.224Z",
+              "WhenOpened": "2024-03-26T18:53:11.094Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Locuitor.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\proiectPIU\\ListaModele\\Locuitor.cs",
+              "RelativeDocumentMoniker": "ListaModele\\Locuitor.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\proiectPIU\\ListaModele\\Locuitor.cs",
+              "RelativeToolTip": "ListaModele\\Locuitor.cs",
+              "ViewState": "AQIAADEAAACg0czMzIwwwDMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:05:36.355Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Personal.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\proiectPIU\\ListaModele\\Personal.cs",
+              "RelativeDocumentMoniker": "ListaModele\\Personal.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\proiectPIU\\ListaModele\\Personal.cs",
+              "RelativeToolTip": "ListaModele\\Personal.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAowCcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:33:02.464Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -73,6 +113,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persoana.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\proiectPIU\\ListaModele\\Persoana.cs",
+              "RelativeDocumentMoniker": "ListaModele\\Persoana.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\proiectPIU\\ListaModele\\Persoana.cs",
+              "RelativeToolTip": "ListaModele\\Persoana.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:59:04.706Z",
+              "EditorCaption": ""
             }
           ]
         }

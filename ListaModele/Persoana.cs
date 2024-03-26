@@ -1,10 +1,5 @@
 ﻿
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ListaModele
 {
@@ -95,7 +90,11 @@ namespace ListaModele
             }
             set
             {
-                if (value.Length > 13 || value.Length < 13)
+                if (value == "-")
+                {
+                    cnp = "-";
+                }
+                else if (value.Length > 13 || value.Length < 13)
                 {
                     cnp = "incorect";
                 }
@@ -108,16 +107,27 @@ namespace ListaModele
         public int Id
         {
             get { return id; }
-            private set { id = value; }
+            protected set { id = value; }
         }
 
         // constructoare
 
         public Persoana()
         {
+            Id = ++ID;
             Nume = "-";
             Prenume = "-";
             sex = "-";
+            dataNasterii = DateTime.MinValue;
+            cnp = "-";
+        }
+
+        public Persoana(string nume, string prenume, string sex)
+        {
+            Id = ++ID;
+            Nume = nume;
+            Prenume = prenume;
+            Sex = sex;
             dataNasterii = DateTime.MinValue;
             cnp = "-";
         }
@@ -132,6 +142,19 @@ namespace ListaModele
             CNP = cnp;
         }
 
+        public Persoana(Persoana persoana)
+        {
+            if (persoana != null && this != persoana)
+            {
+                Id = persoana.Id;
+                Nume = persoana.Nume;
+                Prenume = persoana.Prenume;
+                Sex = persoana.Sex;
+                DataNasterii = persoana.DataNasterii;
+                CNP = persoana.CNP;
+            }
+        }
+
         // metode
 
         public override string ToString()
@@ -144,65 +167,6 @@ namespace ListaModele
                                  "CNP:           {5}\n" +
                                  "ID:            {6}\n",
                                  Nume, Prenume, Sex, dataNasterii.ToShortDateString(), Varsta, CNP, Id);
-        }
-    }
-
-    public class Personal : Persoana
-    {
-        private string post;
-        public string Post
-        {
-            get { return post; }
-            set
-            {
-                if (value != "portar" && value != "persoana de serviciu" && value != "administrator")
-                {
-                    post = "inexistent";
-                }
-                else { post = value; }
-            }
-        }
-    }
-
-    public class Locuitor : Persoana
-    {
-        //public string Tip
-        //{
-        //    get { return Tip; }
-        //    set
-        //    {
-        //        if (value != "student" && value != "profesor")
-        //        {
-        //            Tip = "incorect";
-        //        }
-        //        else { Tip = value; }
-        //    }
-        //}
-
-        //public int Etaj
-        //{
-        //    get { return  Etaj; }
-        //    set
-        //    {
-        //        if (value < 0 /* && value > Camin.nrEtaje */)
-        //        {
-        //            Etaj = -1;
-        //        }
-        //        else { Etaj = value; }
-        //    }
-        //}
-        private int camera;
-        public int Camera
-        {
-            get { return camera; }
-            set
-            {
-                if (value / 100 > 4 /*Camin.nrEtaje*/ || value < 0)
-                {
-                    Camera = 0;
-                }
-                else { Camera = value; }
-            }
         }
     }
 }
