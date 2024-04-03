@@ -6,9 +6,33 @@ namespace ListaModele
     public class Persoana
     {
         // nume
-        public string Nume { get; set; }
+        private string nume;
+        public string Nume
+        {
+            get { return nume; }
+            set
+            {
+                if (!string.IsNullOrEmpty(value))
+                {
+                    nume = Capitalize(value);
+                }
+                else nume = null;
+            }
+        }
         // prenume
-        public string Prenume { get; set; }
+        private string prenume;
+        public string Prenume
+        {
+            get { return prenume; }
+            set
+            {
+                if (!string.IsNullOrEmpty(value))
+                {
+                    prenume = Capitalize(value);
+                }
+                else prenume = null;
+            }
+        }
         // sex
         private string sex;
         public string Sex
@@ -16,28 +40,41 @@ namespace ListaModele
             get { return sex; }
             set
             {
-                if (value.ToUpper() == "M" || value.ToUpper() == "F" || value == "altul")
+                if (!string.IsNullOrEmpty(value))
                 {
-                    sex = value.ToUpper();
+                    string sexul = value.Trim().ToLower();
+                    if (sexul == "m" || sexul == "f" || sexul == "altul")
+                    {
+                        sex = sexul;
+                    }
+                    else { sex = "necunoscut"; }
                 }
-                else { sex = "necunoscut"; }
+                else sex = null;
             }
         }
         // data nasterii
         private DateTime dataNasterii;
-        public DateTime DataNasterii
+        public string DataNasterii
         {
             get
             {
-                return dataNasterii;
+                return dataNasterii.ToShortDateString();
             }
             set
             {
-                if (dataNasterii > DateTime.Today)
+                if (!string.IsNullOrEmpty(value))
                 {
-                    dataNasterii = DateTime.Today;
+                    if (DateTime.TryParse(value, out DateTime extras))
+                    {
+                        if (extras > DateTime.Today)
+                        {
+                            dataNasterii = DateTime.MinValue;
+                        }
+                        else dataNasterii = extras;
+                    }
+                    else dataNasterii = DateTime.MinValue;
                 }
-                else dataNasterii = value;
+                else dataNasterii = DateTime.MinValue;
             }
         }
         // varsta
@@ -45,39 +82,47 @@ namespace ListaModele
         {
             get
             {
-                int data_n = DataNasterii.Day;
-                int luna_n = DataNasterii.Month;
-                int anul_n = DataNasterii.Year;
-
-                int data_c = DateTime.Today.Day;
-                int luna_c = DateTime.Today.Month;
-                int anul_c = DateTime.Today.Year;
-
-                int ani = anul_c - anul_n;
-                int luni;
-                int zile;
-                if (luna_n <= luna_c)
+                if (dataNasterii == DateTime.MinValue || dataNasterii == DateTime.Today)
                 {
-                    luni = luna_c - luna_n;
+                    return "0";
                 }
                 else
                 {
-                    ani--;
-                    luni = luna_n - luna_c;
-                    // 15.09.2002
-                    // 19.03.2024
-                }
-                if (data_n <= data_c)
-                {
-                    zile = data_c - data_n;
-                }
-                else
-                {
-                    luni--;
-                    zile = data_n - data_c;
-                }
+                    int data_n = dataNasterii.Day;
+                    int luna_n = dataNasterii.Month;
+                    int anul_n = dataNasterii.Year;
 
-                return string.Format("{0} ani, {1} luni, {2} zile", ani, luni, zile);
+                    int data_c = DateTime.Today.Day;
+                    int luna_c = DateTime.Today.Month;
+                    int anul_c = DateTime.Today.Year;
+
+                    int ani = anul_c - anul_n;
+                    int luni;
+                    int zile;
+
+                    if (luna_n <= luna_c)
+                    {
+                        luni = luna_c - luna_n;
+                    }
+                    else
+                    {
+                        ani--;
+                        luni = luna_n - luna_c;
+                        // 15.09.2002
+                        // 19.03.2024
+                    }
+                    if (data_n <= data_c)
+                    {
+                        zile = data_c - data_n;
+                    }
+                    else
+                    {
+                        luni--;
+                        zile = data_n - data_c;
+                    }
+
+                    return string.Format("{0} ani, {1} luni, {2} zile", ani, luni, zile);
+                }
             }
         }
         // CNP
@@ -90,35 +135,35 @@ namespace ListaModele
             }
             set
             {
-                if (value == "-")
+                if (!string.IsNullOrEmpty(value))
                 {
-                    cnp = "-";
+                    value = value.Trim();
+                    if (value == "-")
+                    {
+                        cnp = "-";
+                    }
+                    else if (value.Length > 13 || value.Length < 13)
+                    {
+                        cnp = "incorect";
+                    }
+                    else { cnp = value; }
                 }
-                else if (value.Length > 13 || value.Length < 13)
-                {
-                    cnp = "incorect";
-                }
-                else { cnp = value; }
+                else cnp = null;
             }
         }
         // ID
         private static int ID = 0;
-        private int id;
-        public int Id
-        {
-            get { return id; }
-            protected set { id = value; }
-        }
+        public int Id { get; private set; }
 
         // constructoare
 
         public Persoana()
         {
             Id = ++ID;
-            Nume = "-";
-            Prenume = "-";
+            nume = "-";
+            prenume = "-";
             sex = "-";
-            dataNasterii = DateTime.MinValue;
+            dataNasterii = DateTime.Today;
             cnp = "-";
         }
 
@@ -128,11 +173,11 @@ namespace ListaModele
             Nume = nume;
             Prenume = prenume;
             Sex = sex;
-            dataNasterii = DateTime.MinValue;
+            dataNasterii = DateTime.Today;
             cnp = "-";
         }
 
-        public Persoana(string nume, string prenume, string sex, DateTime dataNasterii, string cnp)
+        public Persoana(string nume, string prenume, string sex, string dataNasterii, string cnp)
         {
             Id = ++ID;
             Nume = nume;
@@ -147,11 +192,11 @@ namespace ListaModele
             if (persoana != null && this != persoana)
             {
                 Id = persoana.Id;
-                Nume = persoana.Nume;
-                Prenume = persoana.Prenume;
-                Sex = persoana.Sex;
-                DataNasterii = persoana.DataNasterii;
-                CNP = persoana.CNP;
+                nume = persoana.nume;
+                prenume = persoana.prenume;
+                sex = persoana.sex;
+                dataNasterii = persoana.dataNasterii;
+                cnp = persoana.cnp;
             }
         }
 
@@ -166,7 +211,14 @@ namespace ListaModele
                                  "Varsta:        {4}\n" +
                                  "CNP:           {5}\n" +
                                  "ID:            {6}\n",
-                                 Nume, Prenume, Sex, dataNasterii.ToShortDateString(), Varsta, CNP, Id);
+                                 Nume, Prenume, Sex, DataNasterii, Varsta, CNP, Id);
+        }
+
+        static public string Capitalize(string str)
+        {
+            str = str.Trim();
+            str = char.ToUpper(str[0]) + str.Substring(1).ToLower();
+            return str;
         }
     }
 }

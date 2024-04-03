@@ -9,7 +9,7 @@ namespace NivelStocareDate
     {
         // campuri & proprietati
         private const int N_MAX_PERSONAL = 10;
-        private Personal[] personal;
+        private Responsabil[] personal;
         private int n;
         public int N
         {
@@ -21,13 +21,13 @@ namespace NivelStocareDate
 
         public AdministrarePersonal()
         {
-            personal = new Personal[N_MAX_PERSONAL];
+            personal = new Responsabil[N_MAX_PERSONAL];
             N = 0;
         }
 
         // metode
 
-        public bool AddPersonal(Personal persoana)
+        public bool AddPersonal(Responsabil persoana)
         {
             if (N <= N_MAX_PERSONAL)
             {
@@ -55,40 +55,70 @@ namespace NivelStocareDate
             return this.afisarePersonal();
         }
 
-        public Personal GetResponsabil(string nume)
+        public Responsabil GetResponsabil(string nume)
         {
+            nume = Persoana.Capitalize(nume);
+
             for (int i = 0; i < N; i++)
             {
                 if (personal[i].Nume.Equals(nume))
                 {
-                    return new Personal(personal[i]);
+                    return new Responsabil(personal[i]);
                 }
             }
             return null;
         }
 
-        public Personal GetResponsabil(string nume, string prenume)
+        public Responsabil GetResponsabil(string nume, string prenume)
         {
+            nume = Persoana.Capitalize(nume);
+            prenume = Persoana.Capitalize(prenume);
+
             for (int i = 0; i < N; i++)
             {
                 if (personal[i].Nume.Equals(nume) && personal[i].Prenume.Equals(prenume))
                 {
-                    return new Personal(personal[i]);
+                    return new Responsabil(personal[i]);
                 }
             }
             return null;
         }
 
-        public Personal GetResponsabilCNP(string cnp)
+        public Responsabil GetResponsabilCNP(string cnp)
         {
             for (int i = 0; i < N; i++)
             {
                 if (personal[i].CNP.Equals(cnp))
                 {
-                    return new Personal(personal[i]);
+                    return new Responsabil(personal[i]);
                 }
             }
             return null;
         }
+
+        //public Responsabil[] GetResponsabili(Posturi post)
+        //{
+        //    byte n = 0;
+        //    for (int i = 0; i < N; i++)
+        //    {
+        //        if (personal[i].Post == (int)post)
+        //        {
+        //            n++;
+        //        }
+        //    }
+
+        //    Responsabil[] responsabili = new Responsabil[n];
+
+        //    int j = 0;
+        //    for (int i = 0; i < N; i++)
+        //    {
+        //        if (personal[i].Post == (int)post)
+        //        {
+        //            responsabili[j++] = new Responsabil(personal[i]);
+        //        }
+        //    }
+
+        //    return responsabili;
+        //}
     }
 }

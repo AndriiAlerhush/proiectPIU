@@ -57,6 +57,8 @@ namespace NivelStocareDate
 
         public Locuitor GetLocuitor(string nume)
         {
+            nume = Persoana.Capitalize(nume);
+
             for (int i = 0; i < N; i++)
             {
                 if (locuitori[i].Nume.Equals(nume))
@@ -69,6 +71,9 @@ namespace NivelStocareDate
 
         public Locuitor GetLocuitor(string nume, string prenume)
         {
+            nume = Persoana.Capitalize(nume);
+            prenume = Persoana.Capitalize(prenume);
+
             for (int i = 0; i < N; i++)
             {
                 if (locuitori[i].Nume.Equals(nume) && locuitori[i].Prenume.Equals(prenume))
@@ -83,7 +88,7 @@ namespace NivelStocareDate
         {
             for (int i = 0; i < N; i++)
             {
-                if (locuitori[i].CNP.Equals(cnp))
+                if (locuitori[i].CNP.Equals(cnp.Trim()))
                 {
                     return new Locuitor(locuitori[i]);
                 }

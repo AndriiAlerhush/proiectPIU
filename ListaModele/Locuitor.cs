@@ -32,7 +32,7 @@ namespace ListaModele
 
         public Locuitor() : base()
         {
-            Camera = 0;
+            camera = 0;
         }
 
         public Locuitor(string nume, string prenume, string sex, int camera) : base(nume, prenume, sex)
@@ -40,7 +40,8 @@ namespace ListaModele
             Camera = camera;
         }
 
-        public Locuitor(string nume, string prenume, string sex, DateTime dataNasterii, string cnp, int camera) : base(nume, prenume, sex, dataNasterii, cnp)
+        public Locuitor(string nume, string prenume, string sex, string dataNasterii, string cnp, int camera)
+            : base(nume, prenume, sex, dataNasterii, cnp)
         {
             Camera = camera;
         }
@@ -49,7 +50,7 @@ namespace ListaModele
         {
             if (locuitor != null && this != locuitor)
             {
-                camera = locuitor.Camera;
+                camera = locuitor.camera;
             }
         }
 
@@ -66,7 +67,7 @@ namespace ListaModele
                                  "ID:            {6}\n" +
                                  "Camera:        {7}\n" +
                                  "Etaj:          {8}\n",
-                                 Nume, Prenume, Sex, DataNasterii.ToShortDateString(), Varsta, CNP, Id, camera, Etaj);
+                                 Nume, Prenume, Sex, DataNasterii, Varsta, CNP, Id, camera, Etaj);
         }
     }
 }
