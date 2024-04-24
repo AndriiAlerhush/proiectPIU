@@ -47,16 +47,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AddLocuitorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AddLocuitorForm.Designer.cs">
+      <DependentUpon>AddLocuitorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoduriEroare.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AddLocuitorForm.resx">
+      <DependentUpon>AddLocuitorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,6 +91,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataBase\BazaDate.csproj">
+      <Project>{70b6adfa-4e58-4510-b527-0ed24dd7da58}</Project>
+      <Name>BazaDate</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ListaModele\ListaModele.csproj">
       <Project>{3ef8686e-31d6-47a9-a41f-56217925ac5b}</Project>
       <Name>ListaModele</Name>

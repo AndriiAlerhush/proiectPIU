@@ -46,6 +46,7 @@
     <Compile Include="Responsabil.cs" />
     <Compile Include="Posturi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sexe.cs" />
     <Compile Include="Zile.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

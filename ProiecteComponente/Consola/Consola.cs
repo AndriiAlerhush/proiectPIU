@@ -5,6 +5,7 @@ using ListaModele;
 using System.Configuration;
 using System.Collections.Generic;
 using System.IO;
+using DataBases;
 
 namespace Consola
 {
@@ -93,7 +94,7 @@ namespace Consola
             string numeFisier = ConfigurationManager.AppSettings["NumeFisier"];
 
             // stergerea continutului fisierului
-            using (StreamWriter swFisierText = new StreamWriter(numeFisier, false)) {}
+            using (StreamWriter swFisierText = new StreamWriter(numeFisier, false)) { }
 
             AdministrareLocuitoriFisierText administrareLocuitoriFisierText = new AdministrareLocuitoriFisierText(numeFisier);
 
@@ -103,63 +104,72 @@ namespace Consola
 
             //List<Locuitor> locuitoriFisier = administrareLocuitoriFisierText.GetLocuitori();
             //Console.WriteLine(AdministrareLocuitoriFisierText.afisareLocuitori(locuitoriFisier));
+
+            //DataBase dataBase = new DataBase("Server=192.168.2.197;Database=proiectPIU_demo;User ID=sa;Password=VeryStr0ngP@ssw0rd");
+
+            //if (dataBase.IsAvailable)
+            //{
+            //    dataBase.AddLocuitor(l1.Nume, l1.Prenume, l1.Sex, l1.DataNasterii, l1.Cnp, l1.Camera);
+            //    //dataBase.DeleteLocuitor(1);
+            //}
+            //else Console.WriteLine("Error DB");
         }
 
         //
 
-        static public Locuitor citireLocuitor()
-        {
-            Locuitor locuitor = new Locuitor();
-            Console.Write("Nume:          ");
-            locuitor.Nume = Console.ReadLine();
-            Console.Write("Prenume:       ");
-            locuitor.Prenume = Console.ReadLine();
-            Console.Write("Sex:           ");
-            locuitor.Sex = Console.ReadLine();
-            Console.Write("Data nasterii: ");
-            locuitor.DataNasterii = Console.ReadLine();
-            Console.Write("CNP:           ");
-            locuitor.CNP = Console.ReadLine();
-            Console.Write("Camera:        ");
-            locuitor.Camera = int.Parse(Console.ReadLine());
-            Console.WriteLine();
-            return locuitor;
-        }
+        //static public Locuitor citireLocuitor()
+        //{
+        //    Locuitor locuitor = new Locuitor();
+        //    Console.Write("Nume:          ");
+        //    locuitor.Nume = Console.ReadLine();
+        //    Console.Write("Prenume:       ");
+        //    locuitor.Prenume = Console.ReadLine();
+        //    Console.Write("Sex:           ");
+        //    locuitor.Sex = Console.ReadLine();
+        //    Console.Write("Data nasterii: ");
+        //    locuitor.DataNasterii = Console.ReadLine();
+        //    Console.Write("CNP:           ");
+        //    locuitor.Cnp = Console.ReadLine();
+        //    Console.Write("Camera:        ");
+        //    locuitor.Camera = int.Parse(Console.ReadLine());
+        //    Console.WriteLine();
+        //    return locuitor;
+        //}
 
-        static public Responsabil citirePersonal(int zileDisponibile)
-        {
-            Responsabil responsabil = new Responsabil();
-            Console.Write("Nume:          ");
-            responsabil.Nume = Console.ReadLine();
-            Console.Write("Prenume:       ");
-            responsabil.Prenume = Console.ReadLine();
-            Console.Write("Sex:           ");
-            responsabil.Sex = Console.ReadLine();
-            Console.Write("Data nasterii: ");
-            responsabil.DataNasterii = Console.ReadLine();
-            Console.Write("CNP:           ");
-            responsabil.CNP = Console.ReadLine();
+        //static public Responsabil citirePersonal(int zileDisponibile)
+        //{
+        //    Responsabil responsabil = new Responsabil();
+        //    Console.Write("Nume:          ");
+        //    responsabil.Nume = Console.ReadLine();
+        //    Console.Write("Prenume:       ");
+        //    responsabil.Prenume = Console.ReadLine();
+        //    Console.Write("Sex:           ");
+        //    responsabil.Sex = Console.ReadLine();
+        //    Console.Write("Data nasterii: ");
+        //    responsabil.DataNasterii = Console.ReadLine();
+        //    Console.Write("CNP:           ");
+        //    responsabil.Cnp = Console.ReadLine();
 
-            // post
-            Console.WriteLine("Posturi disponibile:");
-            foreach (Posturi post in Enum.GetValues(typeof(Posturi)))
-            {
-                Console.WriteLine(" " + post + $" - {(int)post}");
-            }
-            Console.Write("Post: ");
-            if (int.TryParse(Console.ReadLine(), out int postul))
-            {
-                responsabil.Post = postul;
-            }
-            else responsabil.Post = (int)Posturi.nesetat;
+        //    post
+        //    Console.WriteLine("Posturi disponibile:");
+        //    foreach (Posturi post in Enum.GetValues(typeof(Posturi)))
+        //    {
+        //        Console.WriteLine(" " + post + $" - {(int)post}");
+        //    }
+        //    Console.Write("Post: ");
+        //    if (int.TryParse(Console.ReadLine(), out int postul))
+        //    {
+        //        responsabil.Post = postul;
+        //    }
+        //    else responsabil.Post = (int)Posturi.nesetat;
 
-            // zile lucratoare
-            Console.Write($"Zile lucratoare: ");
+        //    zile lucratoare
+        //    Console.Write($"Zile lucratoare: ");
 
-            responsabil.ZileLucratoare = Responsabil.CalculareZileLucratoare(Console.ReadLine());
+        //    responsabil.ZileLucratoare = Responsabil.CalculareZileLucratoare(Console.ReadLine());
 
-            Console.WriteLine();
-            return responsabil;
-        }
+        //    Console.WriteLine();
+        //    return responsabil;
+        //}
     }
 }

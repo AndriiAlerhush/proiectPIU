@@ -22,3 +22,5 @@ E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\Consola\bin\Debug\Consola.exe
 E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\Consola\bin\Debug\Consola.pdb
 E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\Consola\obj\Debug\Consola.exe
 E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\Consola\obj\Debug\Consola.pdb
+E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\Consola\bin\Debug\DataBase.dll
+E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\Consola\bin\Debug\DataBase.pdb

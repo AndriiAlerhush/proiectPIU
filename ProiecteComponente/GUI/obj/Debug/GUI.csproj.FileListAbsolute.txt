@@ -21,4 +21,7 @@ E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\GUI\bin\Debug\NivelStocareDate
 E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\GUI\bin\Debug\ListaModele.pdb
 E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\GUI\bin\Debug\NivelStocareDate.pdb
 E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\GUI\obj\Debug\GUI.csproj.Up2Date
-E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\GUI\obj\Debug\GUI.Form1.resources
+E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\GUI\bin\Debug\DataBase.dll
+E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\GUI\bin\Debug\DataBase.pdb
+E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\GUI\obj\Debug\GUI.AddLocuitorForm.resources
+E:\Git\Proiecte\PIU\proiectPIU\ProiecteComponente\GUI\obj\Debug\GUI.MainForm.resources

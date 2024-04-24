@@ -100,7 +100,7 @@ namespace NivelStocareDate
 
             for (int i = 0; i < N; i++)
             {
-                if (locuitori[i].CNP.Equals(cnp))
+                if (locuitori[i].Cnp.Equals(cnp))
                 {
                     return new Locuitor(locuitori[i]);
                 }

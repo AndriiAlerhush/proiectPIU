@@ -1,0 +1,3 @@
+Property 'public bool IsAvailable':
+Для ExecuteScalar нужно открытое и доступное подключение Connection. Подключение устанавливается.
+

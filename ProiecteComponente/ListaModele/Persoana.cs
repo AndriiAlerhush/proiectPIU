@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Globalization;
 
 namespace ListaModele
 {
@@ -44,12 +45,12 @@ namespace ListaModele
             {
                 if (!string.IsNullOrEmpty(value))
                 {
-                    string sexul = value.Trim().ToLower();
-                    if (sexul == "m" || sexul == "f" || sexul == "altul")
+                    string sexul = Capitalize(value.Trim());
+                    if (sexul == "M" || sexul == "F" || sexul == "Altul")
                     {
                         sex = sexul;
                     }
-                    else { sex = "necunoscut"; }
+                    else { sex = "Necunoscut"; }
                 }
                 else sex = null;
             }
@@ -60,13 +61,13 @@ namespace ListaModele
         {
             get
             {
-                return dataNasterii.ToShortDateString();
+                return dataNasterii.ToString("dd.MM.yyyy");
             }
             set
             {
                 if (!string.IsNullOrEmpty(value))
                 {
-                    if (DateTime.TryParse(value, out DateTime extras))
+                    if (DateTime.TryParseExact(value, "dd.MM.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime extras))
                     {
                         if (extras > DateTime.Today)
                         {
@@ -109,9 +110,7 @@ namespace ListaModele
                     else
                     {
                         ani--;
-                        luni = luna_n - luna_c;
-                        // 15.09.2002
-                        // 19.03.2024
+                        luni = 12 - luna_n + luna_c;
                     }
                     if (data_n <= data_c)
                     {
@@ -123,13 +122,13 @@ namespace ListaModele
                         zile = data_n - data_c;
                     }
 
-                    return string.Format("{0} ani, {1} luni, {2} zile", ani, luni, zile);
+                    return string.Format($"{ani} ani, {luni} luni, {zile} zile");
                 }
             }
         }
         // CNP
         private string cnp;
-        public string CNP
+        public string Cnp
         {
             get
             {
@@ -186,7 +185,7 @@ namespace ListaModele
             Prenume = prenume;
             Sex = sex;
             DataNasterii = dataNasterii;
-            CNP = cnp;
+            Cnp = cnp;
         }
 
         public Persoana(Persoana persoana)
@@ -214,7 +213,7 @@ namespace ListaModele
                                  "Data nasterii: {3}\n" +
                                  "Varsta:        {4}\n" +
                                  "CNP:           {5}\n" +
-                                 Nume, Prenume, Sex, DataNasterii, Varsta, CNP, Id);
+                                 Nume, Prenume, Sex, DataNasterii, Varsta, Cnp, Id);
         }
 
         static public string Capitalize(string str)

@@ -1,0 +1,3 @@
+Method 'private ReturnCodes DataExtractor(SqlCommand sqlCommand, out DataTable dataTable)':
+Must declare the scalar variable "@dataNasterii".
+

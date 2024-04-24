@@ -104,7 +104,7 @@ namespace ListaModele
                                  "Post:            {7}\n" +
                                  "Zile lucratoare: {8}\n",
                                  Nume, Prenume, Sex, DataNasterii,
-                                 Varsta, CNP, Id,
+                                 Varsta, Cnp, Id,
                                  post.ToString().Replace("_", " "),
                                  zileLucratoare);
         }

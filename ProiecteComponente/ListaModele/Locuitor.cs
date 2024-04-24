@@ -66,7 +66,7 @@ namespace ListaModele
             Prenume = dateLinieFisier[2];
             Sex = dateLinieFisier[3];
             DataNasterii = dateLinieFisier[4];
-            CNP = dateLinieFisier[5];
+            Cnp = dateLinieFisier[5];
             Camera = int.Parse(dateLinieFisier[6]);
         }
 
@@ -84,14 +84,14 @@ namespace ListaModele
                                  "CNP:           {5}\n" +
                                  "Camera:        {7}\n" +
                                  "Etaj:          {8}\n",
-                                 Nume, Prenume, Sex, DataNasterii, Varsta, CNP, Id, camera, Etaj);
+                                 Nume, Prenume, Sex, DataNasterii, Varsta, Cnp, Id, camera, Etaj);
         }
 
         public string ConversieLaSirPentruFisierText()
         {
             return string.Format("{7}{0}{1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}{0}",
                 SEPARATOR_PRINCIPAL_FISIER, Nume, Prenume, Sex,
-                DataNasterii, CNP, camera.ToString(), Id.ToString());
+                DataNasterii, Cnp, camera.ToString(), Id.ToString());
         }
     }
 }

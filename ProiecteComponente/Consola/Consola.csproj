@@ -51,6 +51,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataBase\BazaDate.csproj">
+      <Project>{70b6adfa-4e58-4510-b527-0ed24dd7da58}</Project>
+      <Name>BazaDate</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ListaModele\ListaModele.csproj">
       <Project>{3ef8686e-31d6-47a9-a41f-56217925ac5b}</Project>
       <Name>ListaModele</Name>

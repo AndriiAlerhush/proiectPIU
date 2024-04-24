@@ -91,7 +91,7 @@ namespace NivelStocareDate
 
             for (int i = 0; i < N; i++)
             {
-                if (personal[i].CNP.Equals(cnp))
+                if (personal[i].Cnp.Equals(cnp))
                 {
                     return new Responsabil(personal[i]);
                 }
