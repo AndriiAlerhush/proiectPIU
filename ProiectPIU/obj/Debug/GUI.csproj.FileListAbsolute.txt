@@ -1,0 +1,15 @@
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\bin\Debug\ProiectPIU.exe.config
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\bin\Debug\ProiectPIU.exe
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\bin\Debug\ProiectPIU.pdb
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\obj\Debug\ProiectPIU.Properties.Resources.resources
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\obj\Debug\ProiectPIU.exe
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\obj\Debug\ProiectPIU.pdb
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\bin\Debug\LibrarieModele.dll
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\bin\Debug\NivelStocareDate.dll
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\bin\Debug\LibrarieModele.pdb
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\bin\Debug\NivelStocareDate.pdb
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\obj\Debug\ProiectPIU.Form1.resources
+C:\Users\alergush\Desktop\ProiectPIU\ProiectPIU\obj\Debug\GUI.csproj.Up2Date

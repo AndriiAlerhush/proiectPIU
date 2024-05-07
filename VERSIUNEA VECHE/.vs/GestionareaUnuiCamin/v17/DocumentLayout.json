@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49AE1B9A-1DA7-4E56-9DC1-E71BA528F9C5}|ProiecteComponente\\Consola\\Consola.csproj|e:\\git\\proiecte\\piu\\proiectpiu\\proiectecomponente\\consola\\consola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49AE1B9A-1DA7-4E56-9DC1-E71BA528F9C5}|ProiecteComponente\\Consola\\Consola.csproj|solutionrelative:proiectecomponente\\consola\\consola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70B6ADFA-4E58-4510-B527-0ED24DD7DA58}|ProiecteComponente\\DataBase\\BazaDate.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\proiectecomponente\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70B6ADFA-4E58-4510-B527-0ED24DD7DA58}|ProiecteComponente\\DataBase\\BazaDate.csproj|solutionrelative:proiectecomponente\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\proiectecomponente\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|solutionrelative:proiectecomponente\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\proiectecomponente\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|solutionrelative:proiectecomponente\\gui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\proiectecomponente\\gui\\addlocuitorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|solutionrelative:proiectecomponente\\gui\\addlocuitorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\proiectecomponente\\gui\\addlocuitorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|solutionrelative:proiectecomponente\\gui\\addlocuitorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\proiectecomponente\\gui\\codurieroare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B44AF10-C3F9-4D83-9499-3FEBDB849B21}|ProiecteComponente\\GUI\\GUI.csproj|solutionrelative:proiectecomponente\\gui\\codurieroare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF8686E-31D6-47A9-A41F-56217925AC5B}|ProiecteComponente\\ListaModele\\ListaModele.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\proiectecomponente\\listamodele\\persoana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8686E-31D6-47A9-A41F-56217925AC5B}|ProiecteComponente\\ListaModele\\ListaModele.csproj|solutionrelative:proiectecomponente\\listamodele\\persoana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\MainForm.cs",
+              "RelativeDocumentMoniker": "ProiecteComponente\\GUI\\MainForm.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\MainForm.cs",
+              "RelativeToolTip": "ProiecteComponente\\GUI\\MainForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:48:31.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\MainForm.cs",
+              "RelativeDocumentMoniker": "ProiecteComponente\\GUI\\MainForm.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\MainForm.cs [Design]",
+              "RelativeToolTip": "ProiecteComponente\\GUI\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:48:27.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddLocuitorForm.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\AddLocuitorForm.cs",
+              "RelativeDocumentMoniker": "ProiecteComponente\\GUI\\AddLocuitorForm.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\AddLocuitorForm.cs",
+              "RelativeToolTip": "ProiecteComponente\\GUI\\AddLocuitorForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T11:33:47.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\DataBase\\DataBase.cs",
+              "RelativeDocumentMoniker": "ProiecteComponente\\DataBase\\DataBase.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\DataBase\\DataBase.cs",
+              "RelativeToolTip": "ProiecteComponente\\DataBase\\DataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:47:08.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Consola.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\Consola\\Consola.cs",
+              "RelativeDocumentMoniker": "ProiecteComponente\\Consola\\Consola.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\Consola\\Consola.cs",
+              "RelativeToolTip": "ProiecteComponente\\Consola\\Consola.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T00:49:35.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddLocuitorForm.cs [Design]",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\AddLocuitorForm.cs",
+              "RelativeDocumentMoniker": "ProiecteComponente\\GUI\\AddLocuitorForm.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\AddLocuitorForm.cs [Design]",
+              "RelativeToolTip": "ProiecteComponente\\GUI\\AddLocuitorForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T11:33:44.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Persoana.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\ListaModele\\Persoana.cs",
+              "RelativeDocumentMoniker": "ProiecteComponente\\ListaModele\\Persoana.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\ListaModele\\Persoana.cs",
+              "RelativeToolTip": "ProiecteComponente\\ListaModele\\Persoana.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T00:50:21.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoduriEroare.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\CoduriEroare.cs",
+              "RelativeDocumentMoniker": "ProiecteComponente\\GUI\\CoduriEroare.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\ProiecteComponente\\GUI\\CoduriEroare.cs",
+              "RelativeToolTip": "ProiecteComponente\\GUI\\CoduriEroare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T11:34:37.139Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

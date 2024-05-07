@@ -1,0 +1,6 @@
+C:\Users\alergush\Desktop\ProiectPIU\LibrarieModele\bin\Debug\LibrarieModele.dll
+C:\Users\alergush\Desktop\ProiectPIU\LibrarieModele\bin\Debug\LibrarieModele.pdb
+C:\Users\alergush\Desktop\ProiectPIU\LibrarieModele\obj\Debug\LibrarieModele.csproj.AssemblyReference.cache
+C:\Users\alergush\Desktop\ProiectPIU\LibrarieModele\obj\Debug\LibrarieModele.csproj.CoreCompileInputs.cache
+C:\Users\alergush\Desktop\ProiectPIU\LibrarieModele\obj\Debug\LibrarieModele.dll
+C:\Users\alergush\Desktop\ProiectPIU\LibrarieModele\obj\Debug\LibrarieModele.pdb
