@@ -26,7 +26,7 @@ namespace GUI
 
         Timer timer;
 
-        public MainForm()
+        public MainForm(bool adminMode = false)
         {
             InitializeComponent();
 
@@ -66,29 +66,6 @@ namespace GUI
             afisorLocuitori.KeyDown += AfisorLocuitori_KeyDown;
             //afisorLocuitori.MouseLeave += AfisorLocuitori_MouseLeave;
             //afisorLocuitori.MouseEnter += AfisorLocuitori_MouseEnter;
-            //
-            // afisorLocuitori Context Menu
-            //
-            ToolStripMenuItem add = new ToolStripMenuItem("Adaugare");
-            add.Click += Adaugare_Context_Menu_Click;
-            contextMenuAfisorLocuitori.Items.Add(add);
-
-            ToolStripMenuItem delete = new ToolStripMenuItem("Eliminare");
-            delete.Click += Eliminare_Context_Menu_Click;
-            contextMenuAfisorLocuitoriRecord.Items.Add(delete);
-            ToolStripMenuItem update = new ToolStripMenuItem("Update");
-            update.Click += Update_Context_Menu_Click;
-            contextMenuAfisorLocuitoriRecord.Items.Add(update);
-            ToolStripMenuItem add1 = new ToolStripMenuItem("Adaugare");
-            add1.Click += Adaugare_Context_Menu_Click;
-            contextMenuAfisorLocuitoriRecord.Items.Add(add1);
-
-            //
-            // Timer
-            //
-            timer = new Timer();
-            timer.Interval = 1000;
-            timer.Tick += Timer_Tick;
 
             //
             // adminLocuitori initialization
@@ -99,6 +76,46 @@ namespace GUI
 
             toolTip1.SetToolTip(imaginePlus, "Adaugare");
             toolTip1.SetToolTip(imagineMinus, "Eliminare");
+            toolTip1.SetToolTip(imagineCautare, "Cautare");
+
+            // ToolStrip Settings
+            //toolTip1.InitialDelay = 500;
+            //toolTip1.AutoPopDelay = 3000;
+
+            imaginePlus.Visible = false;
+            imagineMinus.Visible = false;
+
+            if (adminMode)
+            {
+                //
+                // afisorLocuitori Context Menu
+                //
+                ToolStripMenuItem add = new ToolStripMenuItem("Adaugare");
+                add.Click += Adaugare_Context_Menu_Click;
+                contextMenuAfisorLocuitori.Items.Add(add);
+
+                ToolStripMenuItem delete = new ToolStripMenuItem("Eliminare");
+                delete.Click += Eliminare_Context_Menu_Click;
+                contextMenuAfisorLocuitoriRecord.Items.Add(delete);
+                ToolStripMenuItem update = new ToolStripMenuItem("Update");
+                update.Click += Update_Context_Menu_Click;
+                contextMenuAfisorLocuitoriRecord.Items.Add(update);
+                ToolStripMenuItem add1 = new ToolStripMenuItem("Adaugare");
+                add1.Click += Adaugare_Context_Menu_Click;
+                contextMenuAfisorLocuitoriRecord.Items.Add(add1);
+
+                //
+                // Timer
+                //
+                timer = new Timer
+                {
+                    Interval = 1000
+                };
+                timer.Tick += Timer_Tick;
+
+                imaginePlus.Visible = true;
+                imagineMinus.Visible = true;
+            }
         }
 
         //

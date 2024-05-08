@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|e:\\git\\proiecte\\piu\\proiectpiu\\gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|e:\\git\\proiecte\\piu\\proiectpiu\\gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|e:\\git\\proiecte\\piu\\proiectpiu\\gui\\signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|e:\\git\\proiecte\\piu\\proiectpiu\\gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|e:\\git\\proiecte\\piu\\proiectpiu\\gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|e:\\git\\proiecte\\piu\\proiectpiu\\gui\\signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +34,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainForm_f1.cs",
               "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs",
               "RelativeDocumentMoniker": "GUI\\MainForm_f1.cs",
               "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs",
               "RelativeToolTip": "GUI\\MainForm_f1.cs",
-              "ViewState": "AQIAABIAAAAAZ2ZmZmYcwAwAAABCAAAA",
+              "ViewState": "AQIAAAIAAAAAaWZmZqYowHYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T17:47:03.53Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddForm.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs",
+              "RelativeDocumentMoniker": "GUI\\AddForm.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs",
+              "RelativeToolTip": "GUI\\AddForm.cs",
+              "ViewState": "AQIAADgAAAAAoP/////7v1IAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:40:16.133Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm_f1.cs [Design]",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs",
+              "RelativeDocumentMoniker": "GUI\\MainForm_f1.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs [Design]",
+              "RelativeToolTip": "GUI\\MainForm_f1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:04:26.373Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddForm.cs [Design]",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs",
+              "RelativeDocumentMoniker": "GUI\\AddForm.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs [Design]",
+              "RelativeToolTip": "GUI\\AddForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:45:48.617Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
@@ -52,39 +100,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddForm.cs [Design]",
-              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs",
-              "RelativeDocumentMoniker": "GUI\\AddForm.cs",
-              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs [Design]",
-              "RelativeToolTip": "GUI\\AddForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T17:45:48.617Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddForm.cs",
-              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs",
-              "RelativeDocumentMoniker": "GUI\\AddForm.cs",
-              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs",
-              "RelativeToolTip": "GUI\\AddForm.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAcwCsAAABAAAAA",
+              "Title": "SignForm.cs",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\SignForm.cs",
+              "RelativeDocumentMoniker": "GUI\\SignForm.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\SignForm.cs",
+              "RelativeToolTip": "GUI\\SignForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T17:40:16.133Z",
+              "WhenOpened": "2024-05-08T18:59:01.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm_f1.cs [Design]",
-              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs",
-              "RelativeDocumentMoniker": "GUI\\MainForm_f1.cs",
-              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs [Design]",
-              "RelativeToolTip": "GUI\\MainForm_f1.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "SignForm.cs [Design]",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\SignForm.cs",
+              "RelativeDocumentMoniker": "GUI\\SignForm.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\SignForm.cs [Design]",
+              "RelativeToolTip": "GUI\\SignForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T12:04:26.373Z",
+              "WhenOpened": "2024-05-08T18:58:56.585Z",
               "EditorCaption": " [Design]"
             }
           ]

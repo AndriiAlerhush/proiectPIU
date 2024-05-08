@@ -79,10 +79,10 @@ namespace GUI
             }
         }
 
-        private void ShowMainForm()
+        private void ShowMainForm(bool adminMode = false)
         {
             this.Hide();
-            MainForm mainForm = new MainForm();
+            MainForm mainForm = new MainForm(adminMode);
             mainForm.FormClosed += (s, args) => this.Close();
             mainForm.Show();
         }
@@ -178,7 +178,6 @@ namespace GUI
             if (e.Control && e.KeyCode == Keys.G)
             {
                 ShowMainForm();
-
                 e.Handled = true;
                 e.SuppressKeyPress = true;
             }
@@ -196,7 +195,7 @@ namespace GUI
 
             if (returnCode == DbReturnCodes.RECORD_EXISTS)
             {
-                ShowMainForm();
+                ShowMainForm(true);
             }
             else MessageBox.Show("Date invalide!", "Admin");
         }

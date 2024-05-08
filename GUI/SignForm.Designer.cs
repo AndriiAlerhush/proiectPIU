@@ -182,9 +182,10 @@
             this.Controls.Add(this.buttonSignIn);
             this.Controls.Add(this.labelSignIn);
             this.Controls.Add(this.menuStrip);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "SignForm";
-            this.Text = "Sign Form";
+            this.Text = "Autentificare";
             this.Load += new System.EventHandler(this.SignForm_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();

@@ -68,7 +68,7 @@
             // imagineCamera
             // 
             this.imagineCamera.Image = ((System.Drawing.Image)(resources.GetObject("imagineCamera.Image")));
-            this.imagineCamera.Location = new System.Drawing.Point(536, 488);
+            this.imagineCamera.Location = new System.Drawing.Point(512, 488);
             this.imagineCamera.Name = "imagineCamera";
             this.imagineCamera.Size = new System.Drawing.Size(56, 40);
             this.imagineCamera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -79,7 +79,7 @@
             // imagineCnp
             // 
             this.imagineCnp.Image = ((System.Drawing.Image)(resources.GetObject("imagineCnp.Image")));
-            this.imagineCnp.Location = new System.Drawing.Point(536, 432);
+            this.imagineCnp.Location = new System.Drawing.Point(512, 432);
             this.imagineCnp.Name = "imagineCnp";
             this.imagineCnp.Size = new System.Drawing.Size(56, 40);
             this.imagineCnp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -90,7 +90,7 @@
             // imagineData
             // 
             this.imagineData.Image = ((System.Drawing.Image)(resources.GetObject("imagineData.Image")));
-            this.imagineData.Location = new System.Drawing.Point(536, 368);
+            this.imagineData.Location = new System.Drawing.Point(512, 368);
             this.imagineData.Name = "imagineData";
             this.imagineData.Size = new System.Drawing.Size(56, 40);
             this.imagineData.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -101,7 +101,7 @@
             // imagineSex
             // 
             this.imagineSex.Image = ((System.Drawing.Image)(resources.GetObject("imagineSex.Image")));
-            this.imagineSex.Location = new System.Drawing.Point(536, 304);
+            this.imagineSex.Location = new System.Drawing.Point(512, 304);
             this.imagineSex.Name = "imagineSex";
             this.imagineSex.Size = new System.Drawing.Size(56, 40);
             this.imagineSex.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -112,7 +112,7 @@
             // imaginePrenume
             // 
             this.imaginePrenume.Image = ((System.Drawing.Image)(resources.GetObject("imaginePrenume.Image")));
-            this.imaginePrenume.Location = new System.Drawing.Point(536, 248);
+            this.imaginePrenume.Location = new System.Drawing.Point(512, 248);
             this.imaginePrenume.Name = "imaginePrenume";
             this.imaginePrenume.Size = new System.Drawing.Size(56, 40);
             this.imaginePrenume.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -123,7 +123,7 @@
             // imagineNume
             // 
             this.imagineNume.Image = ((System.Drawing.Image)(resources.GetObject("imagineNume.Image")));
-            this.imagineNume.Location = new System.Drawing.Point(536, 192);
+            this.imagineNume.Location = new System.Drawing.Point(512, 192);
             this.imagineNume.Name = "imagineNume";
             this.imagineNume.Size = new System.Drawing.Size(56, 40);
             this.imagineNume.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -325,10 +325,10 @@
             this.Controls.Add(this.textNume);
             this.Controls.Add(this.labelNume);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "AddForm";
-            this.Text = "AddForm";
+            this.Text = "Adaugare";
             ((System.ComponentModel.ISupportInitialize)(this.imagineCamera)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagineCnp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagineData)).EndInit();

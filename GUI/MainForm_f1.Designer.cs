@@ -65,12 +65,12 @@
             // labelAfisare
             // 
             this.labelAfisare.AutoSize = true;
-            this.labelAfisare.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelAfisare.Location = new System.Drawing.Point(688, 80);
+            this.labelAfisare.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAfisare.Location = new System.Drawing.Point(720, 88);
             this.labelAfisare.Name = "labelAfisare";
-            this.labelAfisare.Size = new System.Drawing.Size(248, 37);
+            this.labelAfisare.Size = new System.Drawing.Size(173, 44);
             this.labelAfisare.TabIndex = 19;
-            this.labelAfisare.Text = "Afisare Locuitori";
+            this.labelAfisare.Text = "Locuitori";
             // 
             // menuStrip1
             // 
@@ -108,18 +108,20 @@
             // labelNrLocuitori
             // 
             this.labelNrLocuitori.AutoSize = true;
-            this.labelNrLocuitori.Location = new System.Drawing.Point(88, 168);
+            this.labelNrLocuitori.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelNrLocuitori.Location = new System.Drawing.Point(88, 160);
             this.labelNrLocuitori.Name = "labelNrLocuitori";
-            this.labelNrLocuitori.Size = new System.Drawing.Size(157, 25);
+            this.labelNrLocuitori.Size = new System.Drawing.Size(176, 29);
             this.labelNrLocuitori.TabIndex = 28;
             this.labelNrLocuitori.Text = "Nr. de locuitori:";
             // 
             // labelNrInt
             // 
             this.labelNrInt.AutoSize = true;
-            this.labelNrInt.Location = new System.Drawing.Point(240, 168);
+            this.labelNrInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelNrInt.Location = new System.Drawing.Point(264, 160);
             this.labelNrInt.Name = "labelNrInt";
-            this.labelNrInt.Size = new System.Drawing.Size(24, 25);
+            this.labelNrInt.Size = new System.Drawing.Size(27, 29);
             this.labelNrInt.TabIndex = 29;
             this.labelNrInt.Text = "0";
             // 
@@ -132,7 +134,7 @@
             // imaginePlus
             // 
             this.imaginePlus.Image = ((System.Drawing.Image)(resources.GetObject("imaginePlus.Image")));
-            this.imaginePlus.Location = new System.Drawing.Point(1360, 160);
+            this.imaginePlus.Location = new System.Drawing.Point(1344, 152);
             this.imaginePlus.Name = "imaginePlus";
             this.imaginePlus.Size = new System.Drawing.Size(40, 34);
             this.imaginePlus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -143,7 +145,7 @@
             // imagineMinus
             // 
             this.imagineMinus.Image = ((System.Drawing.Image)(resources.GetObject("imagineMinus.Image")));
-            this.imagineMinus.Location = new System.Drawing.Point(1408, 160);
+            this.imagineMinus.Location = new System.Drawing.Point(1400, 152);
             this.imagineMinus.Name = "imagineMinus";
             this.imagineMinus.Size = new System.Drawing.Size(40, 34);
             this.imagineMinus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -154,7 +156,7 @@
             // imagineCautare
             // 
             this.imagineCautare.Image = ((System.Drawing.Image)(resources.GetObject("imagineCautare.Image")));
-            this.imagineCautare.Location = new System.Drawing.Point(1456, 160);
+            this.imagineCautare.Location = new System.Drawing.Point(1456, 152);
             this.imagineCautare.Name = "imagineCautare";
             this.imagineCautare.Size = new System.Drawing.Size(40, 34);
             this.imagineCautare.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -175,6 +177,7 @@
             this.Controls.Add(this.afisorLocuitori);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "MainForm";

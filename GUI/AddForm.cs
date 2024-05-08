@@ -43,6 +43,7 @@ namespace GUI
 
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
 
             database = database_;
             adminMemorie = adminMemorie_;
@@ -78,11 +79,12 @@ namespace GUI
             comboBoxSex.DataSource = Enum.GetValues(typeof(Sexe));
 
             // ToolStrip Settings
-            toolTip.InitialDelay = 500;
-            toolTip.AutoPopDelay = 3000;
+            //toolTip.InitialDelay = 500;
+            //toolTip.AutoPopDelay = 3000;
 
             if (updateMode)
             {
+                this.Text = "Update";
                 labelAdaugareLocuitor.Text = "  Update Locuitor";
                 buttonSalvare.Visible = false;
                 buttonUpdate.Visible = true;
