@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|e:\\git\\proiecte\\piu\\proiectpiu\\gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|e:\\git\\proiecte\\piu\\proiectpiu\\gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\mainform_f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|E:\\Git\\Proiecte\\PIU\\proiectPIU\\gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB524C75-A764-4B18-88FA-56C5C1207FB5}|GUI\\GUI.csproj|solutionrelative:gui\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +26,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainForm_f1.cs",
               "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs",
               "RelativeDocumentMoniker": "GUI\\MainForm_f1.cs",
               "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs",
               "RelativeToolTip": "GUI\\MainForm_f1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "ViewState": "AQIAABIAAAAAZ2ZmZmYcwAwAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T17:47:03.53Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddForm.cs [Design]",
+              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs",
+              "RelativeDocumentMoniker": "GUI\\AddForm.cs",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs [Design]",
+              "RelativeToolTip": "GUI\\AddForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:45:48.617Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -49,41 +70,22 @@
               "RelativeDocumentMoniker": "GUI\\AddForm.cs",
               "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs",
               "RelativeToolTip": "GUI\\AddForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwCsAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:53:57.606Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-05-08T17:40:16.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainForm_f1.cs [Design]",
               "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs",
               "RelativeDocumentMoniker": "GUI\\MainForm_f1.cs",
-              "ToolTip": "C:\\Users\\alergush\\Desktop\\ProiectPIU_0\\GUI\\MainForm_f1.cs [Design]",
+              "ToolTip": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\MainForm_f1.cs [Design]",
+              "RelativeToolTip": "GUI\\MainForm_f1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T23:03:49.044Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddForm.cs [Design]",
-              "DocumentMoniker": "E:\\Git\\Proiecte\\PIU\\proiectPIU\\GUI\\AddForm.cs",
-              "RelativeDocumentMoniker": "GUI\\AddForm.cs",
-              "ToolTip": "C:\\Users\\alergush\\Desktop\\ProiectPIU_0\\GUI\\AddForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:48:03.426Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "WhenOpened": "2024-05-08T12:04:26.373Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

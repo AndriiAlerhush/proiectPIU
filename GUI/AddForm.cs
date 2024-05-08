@@ -43,7 +43,6 @@ namespace GUI
 
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
 
             database = database_;
             adminMemorie = adminMemorie_;

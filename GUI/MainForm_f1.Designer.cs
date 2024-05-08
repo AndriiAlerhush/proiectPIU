@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.afisorLocuitori = new System.Windows.Forms.DataGridView();
             this.labelAfisare = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -39,15 +40,21 @@
             this.labelNrLocuitori = new System.Windows.Forms.Label();
             this.labelNrInt = new System.Windows.Forms.Label();
             this.contextMenuAfisorLocuitoriRecord = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.imaginePlus = new System.Windows.Forms.PictureBox();
+            this.imagineMinus = new System.Windows.Forms.PictureBox();
+            this.imagineCautare = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.afisorLocuitori)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imaginePlus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagineMinus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagineCautare)).BeginInit();
             this.SuspendLayout();
             // 
             // afisorLocuitori
             // 
             this.afisorLocuitori.AllowUserToAddRows = false;
             this.afisorLocuitori.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.afisorLocuitori.Location = new System.Drawing.Point(88, 168);
+            this.afisorLocuitori.Location = new System.Drawing.Point(88, 200);
             this.afisorLocuitori.Name = "afisorLocuitori";
             this.afisorLocuitori.ReadOnly = true;
             this.afisorLocuitori.RowHeadersWidth = 82;
@@ -59,7 +66,7 @@
             // 
             this.labelAfisare.AutoSize = true;
             this.labelAfisare.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelAfisare.Location = new System.Drawing.Point(672, 72);
+            this.labelAfisare.Location = new System.Drawing.Point(688, 80);
             this.labelAfisare.Name = "labelAfisare";
             this.labelAfisare.Size = new System.Drawing.Size(248, 37);
             this.labelAfisare.TabIndex = 19;
@@ -82,7 +89,7 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 40);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 36);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // exitToolStripMenuItem
@@ -101,7 +108,7 @@
             // labelNrLocuitori
             // 
             this.labelNrLocuitori.AutoSize = true;
-            this.labelNrLocuitori.Location = new System.Drawing.Point(88, 128);
+            this.labelNrLocuitori.Location = new System.Drawing.Point(88, 168);
             this.labelNrLocuitori.Name = "labelNrLocuitori";
             this.labelNrLocuitori.Size = new System.Drawing.Size(157, 25);
             this.labelNrLocuitori.TabIndex = 28;
@@ -110,7 +117,7 @@
             // labelNrInt
             // 
             this.labelNrInt.AutoSize = true;
-            this.labelNrInt.Location = new System.Drawing.Point(240, 128);
+            this.labelNrInt.Location = new System.Drawing.Point(240, 168);
             this.labelNrInt.Name = "labelNrInt";
             this.labelNrInt.Size = new System.Drawing.Size(24, 25);
             this.labelNrInt.TabIndex = 29;
@@ -122,24 +129,63 @@
             this.contextMenuAfisorLocuitoriRecord.Name = "contextMenuAfisorLocuitoriRecord";
             this.contextMenuAfisorLocuitoriRecord.Size = new System.Drawing.Size(61, 4);
             // 
+            // imaginePlus
+            // 
+            this.imaginePlus.Image = ((System.Drawing.Image)(resources.GetObject("imaginePlus.Image")));
+            this.imaginePlus.Location = new System.Drawing.Point(1360, 160);
+            this.imaginePlus.Name = "imaginePlus";
+            this.imaginePlus.Size = new System.Drawing.Size(40, 34);
+            this.imaginePlus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imaginePlus.TabIndex = 30;
+            this.imaginePlus.TabStop = false;
+            this.imaginePlus.Click += new System.EventHandler(this.Plus_Click);
+            // 
+            // imagineMinus
+            // 
+            this.imagineMinus.Image = ((System.Drawing.Image)(resources.GetObject("imagineMinus.Image")));
+            this.imagineMinus.Location = new System.Drawing.Point(1408, 160);
+            this.imagineMinus.Name = "imagineMinus";
+            this.imagineMinus.Size = new System.Drawing.Size(40, 34);
+            this.imagineMinus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagineMinus.TabIndex = 31;
+            this.imagineMinus.TabStop = false;
+            this.imagineMinus.Click += new System.EventHandler(this.Minus_Click);
+            // 
+            // imagineCautare
+            // 
+            this.imagineCautare.Image = ((System.Drawing.Image)(resources.GetObject("imagineCautare.Image")));
+            this.imagineCautare.Location = new System.Drawing.Point(1456, 160);
+            this.imagineCautare.Name = "imagineCautare";
+            this.imagineCautare.Size = new System.Drawing.Size(40, 34);
+            this.imagineCautare.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imagineCautare.TabIndex = 32;
+            this.imagineCautare.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1624, 779);
+            this.Controls.Add(this.imagineCautare);
+            this.Controls.Add(this.imagineMinus);
+            this.Controls.Add(this.imaginePlus);
             this.Controls.Add(this.labelNrInt);
             this.Controls.Add(this.labelNrLocuitori);
             this.Controls.Add(this.labelAfisare);
             this.Controls.Add(this.afisorLocuitori);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "Main Form";
+            this.Text = "Camin";
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.afisorLocuitori)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imaginePlus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagineMinus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagineCautare)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,6 +202,9 @@
         private System.Windows.Forms.Label labelNrLocuitori;
         private System.Windows.Forms.Label labelNrInt;
         private System.Windows.Forms.ContextMenuStrip contextMenuAfisorLocuitoriRecord;
+        private System.Windows.Forms.PictureBox imaginePlus;
+        private System.Windows.Forms.PictureBox imagineMinus;
+        private System.Windows.Forms.PictureBox imagineCautare;
     }
 }
 

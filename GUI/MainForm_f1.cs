@@ -10,6 +10,7 @@ using System.Drawing;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace GUI
 {
@@ -34,7 +35,7 @@ namespace GUI
             //
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            this.Size = new Size(800, 450);
+            this.Size = new Size(810, 475);
             //
             // MainForm Events
             //
@@ -79,7 +80,7 @@ namespace GUI
             update.Click += Update_Context_Menu_Click;
             contextMenuAfisorLocuitoriRecord.Items.Add(update);
             ToolStripMenuItem add1 = new ToolStripMenuItem("Adaugare");
-            add1.Click += Update_Context_Menu_Click;
+            add1.Click += Adaugare_Context_Menu_Click;
             contextMenuAfisorLocuitoriRecord.Items.Add(add1);
 
             //
@@ -95,6 +96,9 @@ namespace GUI
             database.GetAllLocuitori(out DataTable locuitori_);
             database.AnswerConverter(locuitori_, out List<Locuitor> locuitoriBd);
             adminMemorie = new AdministrareLocuitoriMemorie(locuitoriBd);
+
+            toolTip1.SetToolTip(imaginePlus, "Adaugare");
+            toolTip1.SetToolTip(imagineMinus, "Eliminare");
         }
 
         //
@@ -314,6 +318,53 @@ namespace GUI
         {
             afisorLocuitori.ClearSelection();
             timer.Stop();
+        }
+
+        private void Plus_Click(object sender, EventArgs e)
+        {
+            AddForm addForm = new AddForm(adminMemorie, database);
+
+            if (addForm.ShowDialog() == DialogResult.OK)
+            {
+                AfisareLocuitori();
+
+                for (int i = 0; i < afisorLocuitori.Rows.Count; i++)
+                {
+                    if ((int)afisorLocuitori.Rows[i].Cells["ID"].Value == addForm.CurentLocuitorId)
+                    {
+                        afisorLocuitori.ClearSelection();
+                        afisorLocuitori.Rows[i].Selected = true;
+                        afisorLocuitori.FirstDisplayedScrollingRowIndex = i;
+                        break;
+                    }
+                }
+
+                timer.Start();
+            }
+        }
+
+        private void Minus_Click(object sender, EventArgs e)
+        {
+            int n = afisorLocuitori.SelectedRows.Count;
+
+            if (n > 0)
+            {
+                DialogResult dialogResult = MessageBox.Show("Sigur doriti sa eliminati locuitorul?", "Confirmare Eliminare", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (dialogResult == DialogResult.Yes)
+                {
+                    foreach (DataGridViewRow row in afisorLocuitori.SelectedRows)
+                    {
+                        int id = Convert.ToInt32(row.Cells[0].Value);
+                        adminMemorie.DeleteLocuitor(id);
+                        database.DeleteLocuitor(id);
+                    }
+
+                    AfisareLocuitori();
+                    afisorLocuitori.ClearSelection();
+                }
+            }
+            else MessageBox.Show("Alegeti locuitorul/locuitorii pe care doriti sa-l/sa-i eliminati.", "Eliminare");
         }
     }
 }
